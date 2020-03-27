@@ -1,0 +1,43 @@
+
+.container
+{
+width:50%%;
+margin:auto;
+overflow:hidden;	
+}
+#mainheader
+{
+	background-color:#f0f0f0;
+	color:black;
+
+}
+
+#navbar
+{
+	background-color:black;
+	color:white;
+}
+#navbar ul 
+{
+	padding:0;
+	list-style:none;
+}
+#navbar li
+{
+	display:inline;
+}
+#navbar a
+{
+	color:white;
+	text-decoration:none;
+	fontsize:18px;
+	padding-right:30px;
+}
+.footer
+{
+	background-color:black;
+	color:white;
+}
+* {
+  box-sizing: border-box;
+}

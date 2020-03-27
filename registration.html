@@ -1,0 +1,91 @@
+<html !DOCTYPE>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+<style>
+body {
+  background-image: url('back3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+    <script src="registervalidate.js">
+    </script>
+    <header style="margin-left: 30%;">
+       
+    <h1 style="margin-left: 12%;">REGISTER YOURSELF!</h1>
+</header>
+
+    <form name="myForm" onsubmit="return validation()" method="POST" action = "registration.php">
+        <table style="margin-left: 30%">
+            <tr>
+                <td colspan="3"><label for="Username">Username</label></td>
+                <td colspan="5"> <input type="text" name="Username"></td>
+            </tr>
+        <tr>
+            <td colspan="3"> <label for="password">Password</label></td>
+            <td colspan="5"><input type="password" name="Password"></td>
+        </tr>
+        <tr>
+            <td colspan="3"> <label for="Confirm Password">Confirm Password</label></td>
+                <td colspan="5"><input type="password" name="cpass"></td>
+            </tr> 
+        <tr>
+            <td colspan="3"> <label for="email-id">Email-id</label></td>
+                <td colspan="5"> <input type="email" name="emailid" placeholder=":username@example.com"></td>
+            </tr>
+        <tr>
+            <td colspan="3"> <label for="DOB">DOB</label></td>
+                <td colspan="5"><input type="date" name="date" placeholder="dd/mm/yy"></td>
+        </tr>
+        <tr>
+            <td colspan="3"> <label for="Phone">Phone</label></td>
+            <td colspan="5">  <input type="text" name="Phone"></td>
+        </tr>
+        <tr>
+            <td colspan="3">  <label for="Zipcode">Zipcode</label></td>
+                <td colspan="5"> <input type="text" name="Zipcode"></td>
+        </tr>
+        <tr>
+            <td colspan="3">    <label for="Gender">Gender</label></td>
+            <td colspan="5"> <label for="Male">Male</label>
+        <input type="radio" name="Gender">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender"></td>
+        </tr>
+        <tr>
+            <td colspan="3">  <label for="Languages Known">Languages Known</label></td>
+            <td colspan="5"> <label>English</label>
+        <input type="checkbox" name="LanguagesKnown[]">
+        <label>Hindi</label>
+        <input type="checkbox" name="LanguagesKnown[]">
+        <label>Malayalam</label>
+        <input type="checkbox" name="LanguagesKnown[]"></td>
+        </tr>
+       <tr>
+        <td colspan="3">  <label for="Country">Country</label></td>
+        <td colspan="5"> <select name="opt">
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="France">France</option>
+            <option value="Bangladesh">Bangladesh</option>
+        </select n></td>
+       </tr>
+       <tr>
+        <td colspan="3"> <label for="Address">Address</label></td>
+        <td colspan="5"> <textarea rows="4" name="Address" cols="30">
+        </textarea></td>
+       </tr>
+       <center>
+       <tr>
+          <td colspan="3"> <input type="submit"></td>
+          
+       </tr>
+       </center>
+    </table>
+    </form></body>

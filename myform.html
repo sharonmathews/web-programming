@@ -1,0 +1,86 @@
+<html !DOCTYPE>
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+<link rel="stylesheet" type="text/css" href="external.css">
+</head>
+<body>
+    <script src="registervalidate.js">
+    </script>
+    <header style="margin-left: 30%;">
+        <h2>Not an Adventurer? Become one now.</h2>
+    <p style="margin-left: 12%;">REGISTER YOURSELF</p>
+</header>
+<nav style="margin-left: 30%">
+ <a href="homepage.html"><strong>Home</strong></a>|
+<a href="adventuresconducted.html"><strong>Adventures Conducted</strong></a>|
+<a href="contactus.html"><strong>Contact</strong></a>|
+<a href="register.html"><strong>Log in</strong></a>
+    </nav></br>
+    <form name="myForm" onsubmit="return validation()" method="POST" action = "MyDatabase.php">
+        <table style="margin-left: 30%">
+            <tr>
+                <td colspan="3"><label for="Username">Username</label></td>
+                <td colspan="5"> <input type="text" name="Username"></td>
+            </tr>
+        <tr>
+            <td colspan="3"> <label for="password">Password</label></td>
+            <td colspan="5"><input type="password" name="Password"></td>
+        </tr>
+        <tr>
+            <td colspan="3"> <label for="Confirm Password">Confirm Password</label></td>
+                <td colspan="5"><input type="password" name="cpass"></td>
+            </tr> 
+        <tr>
+            <td colspan="3"> <label for="email-id">email-id</label></td>
+                <td colspan="5"> <input type="email" name="emailid" placeholder=":username@example.com"></td>
+            </tr>
+        <tr>
+            <td colspan="3"> <label for="DOB">DOB</label></td>
+                <td colspan="5"><input type="date" name="date" placeholder="dd/mm/yy"></td>
+        </tr>
+        <tr>
+            <td colspan="3"> <label for="Phone">Phone</label></td>
+            <td colspan="5">  <input type="text" name="Phone"></td>
+        </tr>
+        <tr>
+            <td colspan="3">  <label for="Zipcode">Zipcode</label></td>
+                <td colspan="5"> <input type="text" name="Zipcode"></td>
+        </tr>
+        <tr>
+            <td colspan="3">    <label for="Gender">Gender</label></td>
+            <td colspan="5"> <label for="Male">Male</label>
+        <input type="radio" name="Gender">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender"></td>
+        </tr>
+        <tr>
+            <td colspan="3">  <label for="Languages Known">Languages Known</label></td>
+            <td colspan="5"> <label>English</label>
+        <input type="checkbox" name="LanguagesKnown[]">
+        <label>Hindi</label>
+        <input type="checkbox" name="LanguagesKnown[]">
+        <label>Tamil</label>
+        <input type="checkbox" name="LanguagesKnown[]"></td>
+        </tr>
+       <tr>
+        <td colspan="3">  <label for="Country">Country</label></td>
+        <td colspan="5"> <select name="opt">
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="USA">USA</option>
+            <option value="Bangladesh">Bangladesh</option>
+        </select n></td>
+       </tr>
+       <tr>
+        <td colspan="3"> <label for="Address">Address</label></td>
+        <td colspan="5"> <textarea rows="4" name="Address" cols="30">
+        </textarea></td>
+       </tr>
+       <tr>
+          <td colspan="3"> <input type="submit"></td>
+          <!--td><button onclick="file:///C:/Users/Lenevo/Desktop/web%20program/login.html">Submit</button></!--td-->
+           <!--td><button-- onclick="file:///C:/Users/Lenevo/Desktop/web%20program/register.html;">Reset</button-->
+       </tr>
+    </table>
+    </form></body>

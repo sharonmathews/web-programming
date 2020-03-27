@@ -1,0 +1,93 @@
+<html>
+<head> <title> Registration </title>
+</head>
+<style>
+body {
+  background-image: url('back3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<body>
+<h1 align="center"> Register yourself !</h1>
+<form action ="registration.php" method ="post">
+<table style="width:100%" >
+<tr>
+<th>First Name</th>
+<td> <input type ="text" name ="firstname">
+</td>
+</tr>
+<tr>
+<th>Last Name </th>
+<td> <input type="text" name="lastname">
+</td>
+</tr>
+<tr>
+<th> Username </th>
+<td> <input type="text" name="username"> </td>
+</tr>
+<tr>
+<th> Password </th>
+<td> <input type="text" name="password"> </td>
+</tr>
+<tr>
+<th> Confirm Password </th>
+<td> <input type ="text" name="confirm password"> </td>
+</tr>
+<tr>
+<th> Gender </th>
+<td> Male <input type="radio" name="gender">
+ Female <input type="radio" name="Gender"> </td>
+</tr>
+<tr>
+<th> Title </th>
+<td> MR <input type="checkbox" name="title">MS <input type="checkbox" name="title">
+ MRS <input type ="checkbox" name="title">
+ </td>
+</tr>
+<tr>
+<tr>
+<th> Date of Birth</th>
+<td> <input type ="date" name="dob"></td>
+</tr>
+<th> Email </th>
+<td> <input type="email" name="email"></td>
+</tr>
+<tr>
+<th> Phone No </th>
+<td> <input type="text" name="phoneno"></td>
+</tr>
+<tr>
+<th> Address </th>
+<td> <input type="textarea" name ="address" max="250"> </td>
+</tr>
+<tr>
+<th> State/UT </th>
+<td> 
+<select>
+<option value="1"> Tamil Nadu </option>
+<option value="2"> Kerala </OPTION>
+<option value="3"> Karnataka </option>
+<option value="4"> Andra Pradesh</option>
+<option value="5"> Telangana </option>
+<option value="6"> Delhi </OPTION>
+<option value="7"> Maharashtra </option>
+<option value="8"> Goa </option>
+<option value ="9"> Gujarat </option>
+<option value="10"> Rajasthan </option>
+</select></td>
+</tr>
+<tr>
+<th> PIN Code </th>
+<td> <input type="text" name="pinno" max="6" >
+</tr></table>
+ <center> 
+ <input type ="submit">
+ <input type="reset">
+ </center>
+
+  
+</form>
+</body>
+</html>

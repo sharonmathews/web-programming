@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE dinosaurs PUBLIC "-//Beginning XML//DTD Dinosaurs Example//EN"
+"dinosaurs.dtd">
+<dinosaurs>
+<carnivore>
+<species>Tyrannosaurus Rex</species>
+<length>42 feet</length>
+<height>18 feet</height>
+<weight>5-7 tons</weight>
+<speed>25 mph</speed>
+<weapon>
+<part-of-body>Teeth</part-of-body>
+<description>Though the Tyrannosaurus had many different sizes of teeth,
+all were razor sharp and some grew to lengths of <b>9-13 inches</b>. Broken
+teeth were replaced frequently by newer teeth. The <i>powerful</i> jaw exerted in
+excess of 3000 pounds of pressure!</description>
+</weapon>
+<discoverer>
+<name>Osborn</name>
+<year>1905</year>
+</discoverer>
+<location>
+<country>Canada</country>
+<region>Alberta</region>
+</location>
+<description>The Tyrannosaurus Rex was the <b>king</b> of the terrible
+lizards. Though many now believe it was a hunter <i>and</i> a scavenger it is
+no less fearsome.</description>
+</carnivore>
+<herbivore>
+<species>Stegosaurus Armatus</species>
+<length>25-40 feet</length>
+<height>14 feet</height>
+<weight>2-4 tons</weight>
+<speed/>
+<weapon>
+<part-of-body>Spikes</part-of-body>
+<description>The Stegosaurus had two long rows of armor along its back.
+At the end of its tail <b>four large spikes</b> were an excellent
+defense.</description>
+</weapon>
+<discoverer>
+<name>Marsh</name>
+<year>1877</year>
+</discoverer>
+<location>
+<country>United States</country>
+<region>Colorado</region>
+</location>
+<description>The Stegosaurus Armatus was, perhaps, the most heavily
+armored of all dinosaurs. It is very possible though that it was not very
+smart, it's brain is believed to have been the <b>size of a walnut!
+</b></description>
+</herbivore>
+<omnivore>
+<species>Gallimimus Bullatus</species>
+<length>18 feet</length>
+<height>8 feet</height>
+<weight>1000 pounds</weight>
+<speed>35-60 mph</speed>
+<weapon><part-of-body></part-of-body><description></description></weapon>
+<discoverer>
+<name>Roniewicz</name>
+<year>1972</year>
+</discoverer>
+<location>
+<country>Mongolia</country>
+<region>Nemegtskaya Svita</region>
+</location>
+<description>The Gallimimus Bullatus, or <i>Chicken Mimic</i> was very
+fast, perhaps even the fastest of all dinosaurs.</description>
+</omnivore>
+</dinosaurs>
